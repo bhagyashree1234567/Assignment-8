@@ -35,9 +35,14 @@ button {
 	padding: 10px 0px;
 	margin: 10px 0px 10px 225px;
 }
-
+.del-btn {
+	width: 75px;
+    background-color: #4f9cda;	
+    color: white;
+    padding: 6px 20px;
+}
 table {
-	width: 600px;
+	width: 1200px;
 }
 
 thead tr  {
@@ -58,10 +63,4 @@ tr:nth-child(odd){background-color: #d2dff1;}
 
 tr td:nth-of-type(4) {
 	text-align: center;
-}
-.del-btn {
-    background-color: #4f9cda;
-	padding: 6px 20px;
-    color: white;
-    width: 75px;   
 }
